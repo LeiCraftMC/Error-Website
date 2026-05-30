@@ -10,7 +10,8 @@ import LCMCIcon from "~/components/img/LCMCIcon.vue";
 
         <UHeader>
             <template #left>
-                <!-- Show Nothing -->
+                <!-- Überschreibt den Standard Nuxt UI Text -->
+                <div class="hidden"></div>
             </template>
 
             <template #default>
