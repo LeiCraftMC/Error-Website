@@ -15,7 +15,7 @@ import LCMCIcon from "~/components/img/LCMCIcon.vue";
             </template>
 
             <template #default>
-                <NuxtLink to="/" :class="`flex items-center gap-1.5`">
+                <NuxtLink to="https://hosting.leicraftmc.de" :class="`flex items-center gap-1.5`">
                     <LCMCIcon class="w-10 h-10" />
                     <span class="text-3xl font-extrabold">
                         LeiCraft_MC Hosting
