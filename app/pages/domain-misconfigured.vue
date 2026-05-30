@@ -15,7 +15,7 @@ useSeoMeta({
 <template>
     
     <div class="text-center">
-        <h1 class="text-4xl font-bold mb-4 text-error-900">Domain Misconfigured</h1>
+        <h1 class="text-4xl font-bold mb-4 text-error-500">Domain Misconfigured</h1>
 
         <ClientOnly>
             <p v-if="domain" class="text-lg mb-2">
