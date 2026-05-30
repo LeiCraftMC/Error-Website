@@ -9,6 +9,10 @@ import LCMCIcon from "~/components/img/LCMCIcon.vue";
     <div class="app-layout main-bg-color">
 
         <UHeader>
+            <template #left>
+                <!-- Show Nothing -->
+            </template>
+
             <template #default>
                 <NuxtLink to="/" :class="`flex items-center gap-1.5`">
                     <LCMCIcon class="w-10 h-10" />
