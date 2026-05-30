@@ -9,7 +9,7 @@ import LCMCIcon from "~/components/img/LCMCIcon.vue";
     <div class="app-layout main-bg-color">
 
         <UHeader>
-            <template #left>
+            <template #default>
                 <NuxtLink to="/" :class="`flex items-center gap-1.5`">
                     <LCMCIcon class="w-10 h-10" />
                     <span class="text-3xl font-extrabold">
@@ -20,8 +20,8 @@ import LCMCIcon from "~/components/img/LCMCIcon.vue";
 
         </UHeader>
 
-        <UMain class="py-8 main-content">
-            <UContainer>
+        <UMain class="py-8 main-content flex flex-col justify-center">
+            <UContainer class="w-full">
                 <div class="border-4 border-gray-300 p-6 rounded-lg">
                     <slot />
                 </div>
