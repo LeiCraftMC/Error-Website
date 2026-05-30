@@ -16,7 +16,7 @@ useSeoMeta({
 <template>
     
     <div class="text-center">
-        <h1 class="text-4xl font-bold mb-4">Domain Suspended</h1>
+        <h1 class="text-4xl font-bold mb-4 text-error-900">Domain Suspended</h1>
 
         <ClientOnly>
             <p v-if="domain" class="text-lg mb-2">
@@ -30,8 +30,11 @@ useSeoMeta({
             </template>
         </ClientOnly>
 
-        <p class="text-gray-600">
-            Wenn Sie der Eigentümer dieser Domain sind, wenden Sie sich bitte an den Support unter <a href="mailto:support@leicraftmc.de" class="text-blue-500 underline">support@leicraft_mc.de</a>, um weitere Informationen zu erhalten.
+        <p class="text-white">
+            Wenn Sie der Eigentümer dieser Domain sind,
+            wenden Sie sich bitte an den Support unter
+            <a href="mailto:support@leicraftmc.de" class="text-blue-500 underline">support@leicraftmc.de</a>,
+            um weitere Informationen zu erhalten.
         </p>
     </div>
 
